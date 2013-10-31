@@ -20,6 +20,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xorg-lib-libxkbcommon-devel
 BuildRequires:	xz
+Conflicts:	kmscon-libs < 8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,6 +40,7 @@ Summary:	Header files for TSM library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki TSM
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
+Conflicts:	kmscon-devel < 8
 
 %description devel
 Header files for TSM library.
@@ -51,6 +53,7 @@ Summary:	Static TSM library
 Summary(pl.UTF-8):	Statyczna biblioteka TSM
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
+Conflicts:	kmscon-static < 8
 
 %description static
 Static TSM library.
