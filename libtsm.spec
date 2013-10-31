@@ -11,10 +11,7 @@ License:	MIT
 Group:		Libraries
 Source0:	http://www.freedesktop.org/software/kmscon/releases/%{name}-%{version}.tar.xz
 # Source0-md5:	c1b297a69d11a72f207ec35ae5ce7d69
-# specified in libtsm.pc, but 404 for now
-#URL:		http://dvdhrm.github.io/libtsm
-# general ksmcon URL
-URL:		https://github.com/dvdhrm/kmscon/wiki/KMSCON
+URL:		http://www.freedesktop.org/wiki/Software/kmscon/libtsm/
 BuildRequires:	check
 BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
