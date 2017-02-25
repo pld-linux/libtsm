@@ -6,7 +6,7 @@ Summary:	Terminal-emulator State Machine library
 Summary(pl.UTF-8):	Biblioteka automatu emulatora terminala
 Name:		libtsm
 Version:	3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 Source0:	http://www.freedesktop.org/software/kmscon/releases/%{name}-%{version}.tar.xz
